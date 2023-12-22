@@ -1,0 +1,134 @@
+html{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    display: inline;
+    margin-left: 20px;
+}
+header h1{
+    display: inline;
+    margin-top: 20%;
+}
+header a{
+    color: white;
+}
+li{
+    display: inline;
+    
+}
+nav ul{
+    margin-top: 18%;
+    position: relative;
+    right: 110px;
+    text-decoration: none;
+    bottom: 6px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    width: 72%;
+    margin: auto;
+    background-color: #003a5a;
+}
+.podnaslov , .podnaslov2 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.objave, .kat{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.objave article{
+    align-items: center;
+    margin-right: 20px;
+    width: 100%;
+}
+footer{
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #003a5a;
+    color: white;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 72%;
+}
+h3{
+    margin: 0;
+    color: red;
+}
+article p {
+    margin-top: 0px;
+    font-weight: bold;
+}
+/* -------------------CSS za clanak------------------------- */
+.artikl{
+    width: 45%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    margin-left: 27%;
+}
+.artikl1{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.artikl h1{
+    margin: 0;
+}
+.tekst, .podnaslov3{
+    font-weight: normal;
+}
+h1{
+    font-size: 30px;
+}
+form{
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+[type="submit"]{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    background-color: #095484;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+[type="reset"]{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    background-color: #095484;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.bold{
+    font-weight: bold;
+}
+section img {
+ 
+    width: 300px;
+    height: 200px;
+}
